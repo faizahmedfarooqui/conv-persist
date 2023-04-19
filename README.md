@@ -1,4 +1,4 @@
-# Conv Persist
+# ConvPersist
 
 ConvPersist is a powerful CLI tool that enables seamless and persistent conversations between users and AI assistants powered by OpenAI.
 
