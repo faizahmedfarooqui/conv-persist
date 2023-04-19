@@ -1,0 +1,27 @@
+{
+  "name": "conv-persist",
+  "description": "ConvPersist is a powerful CLI tool that enables seamless and persistent conversations between users and AI assistants powered by OpenAI.",
+  "private": "true",
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "dotenv": "^16.0.3",
+    "eventsource-parser": "^1.0.0",
+    "openai": "^3.2.1"
+  },
+  "author": {
+    "name": "Faiz A. Farooqui",
+    "email": "faizahmed.in@gmail.com",
+    "url": "https://faizahmed.in"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "main": "build/index.js"
+}

@@ -1,0 +1,4 @@
+system: You are a helpful assistant that helps in writing code in tsx codeblocks
+
+user: can you create a box component using react-native?
+
